@@ -1,20 +1,20 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { BasicsView } from "../views";
+import { EarnersView } from "../views";
 
-const Basics: NextPage = (props) => {
+const Earners: NextPage = (props) => {
   return (
-    <div>
+    <div className="w-full">
       <Head>
-        <title>iHub Global Admin</title>
+        <title>iHub Global Admin - Earners</title>
         <meta
           name="description"
           content="iHub Global Admin"
         />
       </Head>
-      <BasicsView />
+      <EarnersView />
     </div>
   );
 };
 
-export default Basics;
+export default Earners;

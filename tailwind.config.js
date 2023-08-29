@@ -39,6 +39,7 @@ module.exports = {
           'base-200': '#35363a',          /* Base color, a little darker */
           'base-300': '#222222',          /* Base color, even more darker */
           'base-content': '#f9fafb',      /* Foreground content color to use on base color */
+          'indigo-950': '#1e1b4b',
 
           'info': '#2094f3',              /* Info */
           'success': '#009485',           /* Success */
